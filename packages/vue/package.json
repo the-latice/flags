@@ -1,0 +1,38 @@
+{
+  "name": "@latice/flags-vue",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js"
+    },
+    "./static": {
+      "types": "./dist/static.d.ts",
+      "import": "./dist/static.es.js"
+    }
+  },
+  "scripts": {
+    "gen": "tsx ../core/scripts/generate-flags.ts vue",
+    "build": "pnpm run gen && vite build",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@latice/flags-core": "workspace:*",
+    "@types/node": "^25.2.3",
+    "@vitejs/plugin-vue": "^6.0.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.28",
+    "vue-tsc": "^3.2.4"
+  }
+}
