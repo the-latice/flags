@@ -52,6 +52,9 @@ importers:
       react:
         specifier: ^19.0.0
         version: 19.2.7
+      tsx:
+        specifier: ^4.22.4
+        version: 4.22.4
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -73,6 +76,9 @@ importers:
       "@vitejs/plugin-vue":
         specifier: ^6.0.4
         version: 6.0.7(vite@7.3.5(@types/node@25.9.1)(tsx@4.22.4))(vue@3.5.35(typescript@5.9.3))
+      tsx:
+        specifier: ^4.22.4
+        version: 4.22.4
       typescript:
         specifier: ^5.9.3
         version: 5.9.3

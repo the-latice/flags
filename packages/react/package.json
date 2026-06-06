@@ -1,8 +1,27 @@
 {
   "name": "@latice/flags-react",
   "version": "0.1.0",
+  "description": "Country flag components for React. Lightweight, tree-shakable, SSR-ready.",
+  "keywords": [
+    "latice",
+    "flag",
+    "flags",
+    "country",
+    "svg",
+    "react",
+    "next",
+    "iso-3166",
+    "ssr",
+    "components"
+  ],
   "type": "module",
-  "license": "MIT",
+  "license": "ISC",
+  "homepage": "https://github.com/the-latice/flags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-latice/flags.git",
+    "directory": "packages/react"
+  },
   "sideEffects": false,
   "files": [
     "dist"
@@ -33,6 +52,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-dts": "^4.5.4",
-    "react": "^19.0.0"
+    "react": "^19.0.0",
+    "tsx": "^4.22.4"
   }
 }
