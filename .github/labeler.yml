@@ -1,0 +1,52 @@
+"pkg:core":
+  - changed-files:
+      - any-glob-to-any-file: "packages/core/**"
+
+"pkg:vue":
+  - changed-files:
+      - any-glob-to-any-file: "packages/vue/**"
+
+"pkg:react":
+  - changed-files:
+      - any-glob-to-any-file: "packages/react/**"
+
+tooling:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "turbo.json"
+          - "pnpm-workspace.yaml"
+          - ".prettierrc"
+          - ".prettierignore"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ".github/**"
+
+"lang:vue":
+  - changed-files:
+      - any-glob-to-any-file: "**/*.vue"
+
+"lang:ts":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.ts"
+          - "**/*.mts"
+
+"lang:js":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.js"
+
+"lang:react":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.tsx"
+          - "**/*.jsx"
+
+"lang:svg":
+  - changed-files:
+      - any-glob-to-any-file: "**/*.svg"
+
+"lang:md":
+  - changed-files:
+      - any-glob-to-any-file: "**/*.md"

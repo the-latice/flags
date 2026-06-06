@@ -1,0 +1,15 @@
+node_modules
+.pnpm-store
+dist
+.turbo
+.git
+
+# generated
+packages/vue/src/flags
+packages/vue/src/runtime/lazy-registry.ts
+packages/vue/src/index.ts
+packages/vue/src/static-entry.ts
+packages/react/src/flags
+packages/react/src/runtime/lazy-registry.ts
+packages/react/src/index.ts
+packages/react/src/static-entry.ts

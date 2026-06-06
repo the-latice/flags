@@ -1,0 +1,15 @@
+- { name: "pkg:core", color: "BDBDBD" }
+- { name: "pkg:vue", color: "41B883" }
+- { name: "pkg:react", color: "1D4984" }
+
+- { name: "tooling", color: "E11D48" }
+- { name: "ci", color: "2088FF" }
+
+- { name: "lang:vue", color: "41B883" }
+- { name: "lang:ts", color: "2B7489" }
+- { name: "lang:js", color: "F1E05A" }
+- { name: "lang:react", color: "61DAFB" }
+- { name: "lang:svg", color: "FFB13B" }
+- { name: "lang:md", color: "083FA1" }
+
+- { name: "prettier", color: "F7B93E" }
