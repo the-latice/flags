@@ -9,6 +9,7 @@ export default defineConfig({
     dts({
       rollupTypes: true,
       outDir: "dist",
+      bundledPackages: ["@latice/flags-core"],
     }),
   ],
   build: {

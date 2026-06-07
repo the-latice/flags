@@ -10,6 +10,7 @@ export default defineConfig({
       rollupTypes: true,
       outDir: "dist",
       cleanVueFileName: true,
+      bundledPackages: ["@latice/flags-core"],
     }),
   ],
   build: {
