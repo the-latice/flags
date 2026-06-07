@@ -5,7 +5,7 @@ import { lazyRegistry } from "../runtime/lazy-registry";
 import { normalizeCode } from "@latice/flags-core";
 import type { BaseFlagProps, FlagCode } from "@latice/flags-core";
 
-interface Props extends BaseFlagProps {
+export interface FlagProps extends BaseFlagProps {
   code: FlagCode | string;
 }
 
@@ -16,7 +16,7 @@ export function Flag({
   shadow = false,
   border = true,
   rounded = true,
-}: Props) {
+}: FlagProps) {
   const normalized = normalizeCode(code);
   const LazyFlag = lazyRegistry[normalized];
 

@@ -167,6 +167,7 @@ export default Flag${safeName}
   const componentExports =
     target === "react"
       ? `export { Flag } from './components/Flag'
+export type { FlagProps } from './components/Flag'
 export { FlagFrame } from './components/FlagFrame'`
       : `export { default as Flag } from './components/Flag.vue'
 export { default as FlagFrame } from './components/FlagFrame.vue'`;

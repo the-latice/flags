@@ -3,7 +3,7 @@ import { defineAsyncComponent, markRaw } from "vue";
 import { lazyRegistry } from "../runtime/lazy-registry";
 import type { FlagCode, BaseFlagProps } from "@latice/flags-core";
 
-export interface Props extends BaseFlagProps {
+export interface FlagProps extends BaseFlagProps {
   code: FlagCode | string;
 }
 
@@ -30,7 +30,7 @@ import FlagSkeleton from "./FlagSkeleton.vue";
 import FlagFrame from "./FlagFrame.vue";
 import { normalizeCode } from "@latice/flags-core";
 
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<FlagProps>(), {
   size: "md",
   shadow: false,
   border: true,
