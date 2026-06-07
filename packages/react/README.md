@@ -42,8 +42,8 @@ Import individual flag components directly. Only the flags you import end up in 
 ```tsx
 import { FlagPL, FlagGB_SCT } from '@latice/flags-react/static'
 
-<FlagPL size="lg" />
-<FlagGB_SCT size="sm" shadow />
+<FlagPL size="lg" shadow />
+<FlagGB_SCT size="sm" rounded={false} />
 ```
 
 **Naming:** `Flag` + ISO 3166 Alpha-2, uppercase. Hyphens become underscores: `GB-SCT` => `FlagGB_SCT`.

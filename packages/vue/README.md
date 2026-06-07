@@ -52,8 +52,8 @@ import { FlagPL, FlagGB_SCT } from "@latice/flags-vue/static";
 </script>
 
 <template>
-  <FlagPL size="lg" />
-  <FlagGB_SCT size="sm" shadow />
+  <FlagPL size="lg" shadow />
+  <FlagGB_SCT size="sm" :rounded="false" />
 </template>
 ```
 
